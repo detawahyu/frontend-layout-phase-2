@@ -1,20 +1,33 @@
-# frontend-layout-phase-1
-Frontend layout training using semantic HTML, CSS Grid, and Flexbox (mobile-first).
+Frontend Layout Phase 2 — Mobile-First Rebuild
 
-# Frontend Layout Training – Phase 1
+This repository contains the second phase of my frontend layout learning project.
+Unlike Phase 1 (desktop-first exploration), this phase focuses on rebuilding the layout from scratch using a mobile-first approach and a cleaner structural system.
 
-This repository is part of a personal frontend training program.
+# Goals of Phase 2
+- Rebuild layout using mobile-first CSS strategy
+- Simplify and refactor HTML structure (less div clutter)
+- Improve semantic markup
+- Establish a scalable CSS architecture
+- Use reusable components instead of section-based styling
+- Implement consistent design tokens (spacing, typography, colors)
+- Practice professional naming conventions
 
-## Focus
-- Semantic HTML structure
-- CSS Grid & Flexbox
-- Desktop layout
+ # What’s Different From Phase 1
+      Phase 1                     	Phase 2
+- Desktop-first	              - Mobile-first
+- Section-based layout	      - Component-based system
+- Experimental structure	    - Refactored clean HTML
+- Mixed naming styles	        - Standardized class naming
+- Layout-focused	            - System-focused
 
-## Rules
-- No framework
-- No CSS library
-- No JavaScript
-- No animations
+# Tech Stack
+- HTML5
+- CSS3 (Custom Properties / Design Tokens)
+- No framework — pure layout fundamentals
 
-## Goal
-Build clean, scalable, and responsive layouts similar to real-world frontend work.
+# Purpose
+This project is not a final product, but a learning laboratory for mastering:
+- Layout systems
+- Responsive thinking
+- Structural refactoring
+- Clean frontend architecture
