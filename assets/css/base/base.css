@@ -1,16 +1,3 @@
-
-/* ============================= */
-/*           CSS RESET           */
-/* ============================= */
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 /* ============================= */
 /*        DOCUMENT BASICS        */
 /* ============================= */
@@ -72,7 +59,9 @@ p {
 small {
   font-size: var(--fs-caption);
 }
-
+.green-font{
+  color: var(--clr-primary);
+}
 /* ============================= */
 /*         LIST & LINKS          */
 /* ============================= */
@@ -103,10 +92,8 @@ button {
 
 .full-background{
   background-color: var(--clr-primary-light);
-  max-width: 100%;
+  width: 100%;
 }
 
-.green-font{
-  color: var(--clr-primary);
-}
+
 

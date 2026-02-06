@@ -41,8 +41,6 @@ a{
     text-decoration: none;
     font-weight: var(--fw-medium);
 }
-a
-
-li{
+a li{
     list-style-type: none;
 }

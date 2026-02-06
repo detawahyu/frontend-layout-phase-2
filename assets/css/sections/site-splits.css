@@ -1,17 +1,19 @@
 
 .split{
-    display: flex;
-    padding: var(--space-5) 0;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
 }
-.split-visual{
-    flex: 50;
+.split-img{
+    margin: 0 auto;
 }
 .split-content{
-    flex: 50;
+    /* flex: 50; */
     display: flex;
     flex-direction: column;
-    gap: var(--space-4);
+    gap: var(--space-3);
+    padding-top: var(--space-3);
 }
 .btn-split{
     width: fit-content;
+    margin: 0 auto;
 }

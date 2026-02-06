@@ -1,6 +1,5 @@
 
 .blog{
-    padding: var(--space-5) 0;
 }
 .blog-header{
     grid-column: 1 / -1;
@@ -15,6 +14,7 @@
 
 .blog-list{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     gap:var(--space-3);
     padding-top: var(--space-3);
@@ -23,6 +23,7 @@
     border-radius: 5px;
 }
 .blog-img{
+    width: 100%;
     height: auto;
     border-radius: 5px;
 }
@@ -36,7 +37,4 @@
     border-radius: 5px;
     position: relative;
     box-shadow: -1px 10px 10px rgba(0, 0, 0, 0.15);
-}
-.blog-label h4{
-    margin-bottom: var(--space-2);
 }

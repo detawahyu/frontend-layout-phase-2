@@ -6,7 +6,7 @@
     /* NEUTRAL / TEXT */
     --clr-dark: #263238; /* heading*/
     --clr-d-gray: #4D4D4D;
-    --clr-gray: 717171
+    --clr-gray: #717171;
 }
     /* TYPOGRAPHY */
 :root{
@@ -46,8 +46,8 @@
     --space-4: 1.5rem;   /* 24px */
     --space-5: 2rem;     /* 32px */
     --space-6: 3rem;     /* 48px */
-    --space-7: 4rem;     /* 94px */
-    --space-8: 5rem;     /* 110px */
+    --space-7: 4rem;     /* 64px */
+    --space-8: 5rem;     /* 80px */
   
     --space-section: 6rem; /* 96px */
     --space-hero: 9rem;    /* 144px */
@@ -68,8 +68,8 @@
         /* headings */
     --fs-h1: 2.75rem;      /* 64px */
     --fs-h2: 1.25rem;      /* 36px */
-    --fs-h3: 0.75rem;      /* 28px */
-    --fs-h4: 0.25rem;      /* 20px */
+    --fs-h3: 1rem;      /* 28px */
+    --fs-h4: 0.75rem;      /* 20px */
     /* Body */
     --fs-body-lg: 1.125rem; /* 18px */
     --fs-body: 1rem;        /* 16px */

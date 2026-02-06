@@ -1,42 +1,24 @@
-/* Base styles - phase 1 */
+/* Base styles - phase 2 */
 @import url(base/tokens.css);
 @import url(base/typography.css);
 @import url(base/base.css);
 @import url(base/reset.css);
-
-@import url(layout/header.css);
-@import url(sections/site-header.css);
 @import url(components/buttons.css);
-
 @import url(components/navigations.css);
-
-@import url(layout/hero.css);
-@import url(sections/site-hero.css);
-
-@import url(layout/clients.css);
-@import url(sections/site-client.css);
-
-@import url(layout/features.css);
-@import url(sections/site-feature.css);
-
-@import url(layout/splits.css);
-@import url(sections/site-splits.css);
-
-@import url(layout/metrics.css);
-@import url(sections/site-metrics.css);
-
-@import url(layout/testi.css);
-@import url(sections/site-testi.css);
-
-@import url(layout/blog.css);
-@import url(sections/site-blog.css);
-
-@import url(layout/cta.css);
-@import url(sections/site-cta.css);
-
-@import url(layout/footer.css);
-@import url(sections/site-footer.css);
-
 @import url(layout/wrapper.css);
 @import url(layout/grid.css);
 @import url(layout/flex.css);
+
+
+@import url(layout/header.css);
+@import url(layout/footer.css);
+
+@import url(sections/site-hero.css);
+@import url(sections/site-client.css);
+@import url(sections/site-feature.css);
+@import url(sections/site-splits.css);
+@import url(sections/site-metrics.css);
+@import url(sections/site-testi.css);
+@import url(sections/site-blog.css);
+@import url(sections/site-cta.css);
+@import url(sections/site-footer.css);

@@ -4,9 +4,10 @@
 .bg-footer{
     background-color: var(--clr-primary-dark);
     color: var(--clr-primary-light);
-    padding: var(--space-6) 0;
+    padding: var(--space-3) 0;
 }
 .footer{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column-reverse;
+    gap: var(--space-4);
 }
