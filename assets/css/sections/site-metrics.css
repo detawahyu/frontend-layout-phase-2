@@ -1,16 +1,11 @@
 .metrics{
-    display: flex;
     gap: var(--space-5);
-    flex-direction: column;
     text-align: center;
     margin: 0 auto;
 }
 .metrics-header{
     flex: 1;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-
 }
 .metrics-header .green-font{
     display: block;
@@ -30,4 +25,13 @@
 .metrics-icon{
     width: var(--space-6);
     height: auto;
+}
+
+/* DESKTOP */
+
+@media(min-width: 768px){
+    .metrics{
+        flex-direction: row;
+        text-align: unset;
+    }
 }

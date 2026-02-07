@@ -7,6 +7,20 @@
     align-items: center;
     padding-top: var(--space-4);
 }
-.nav-list{
-    display: none;
+
+@media(max-width: 768px){
+    .nav-list{
+        display: none;
+    }
+}
+
+/* DESKTOP */
+@media(min-width: 768px){
+    .site-header{
+        flex-direction: row;
+    }
+    .nav-list{
+        display: flex;
+        gap: var(--space-5);
+    }
 }

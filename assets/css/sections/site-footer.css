@@ -9,8 +9,6 @@
     margin-bottom: var(--space-3);
 }
 .footer-logo-area{
-    display: flex;
-    flex-direction: column;
     gap: var(--space-3);
     justify-content: center;
     text-align: center;
