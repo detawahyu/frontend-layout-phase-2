@@ -35,3 +35,8 @@
     position: relative;
     box-shadow: -1px 10px 10px rgba(0, 0, 0, 0.15);
 }
+@media(min-width: 768px){
+    .blog-list{
+        flex-direction: row;
+    }
+}

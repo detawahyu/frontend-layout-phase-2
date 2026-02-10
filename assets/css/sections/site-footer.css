@@ -38,6 +38,7 @@
     justify-content: space-evenly;
 }
 
+
 .footnav-item:hover{
     color: var(--clr-primary);
 }
@@ -59,4 +60,20 @@
 .subscribe-input:focus::placeholder{
     background-color: var(--clr-d-gray);
 
+}
+
+@media(min-width: 768px){
+    .footer-nav{
+        justify-content: space-between;
+    }
+    .footer-logo-area{
+        justify-content: unset;
+        text-align: left;
+    }
+    .footer-logo{
+        margin: 0;
+    }
+    .social{
+        justify-content: unset;
+    }
 }

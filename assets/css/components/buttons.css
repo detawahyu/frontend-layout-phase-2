@@ -38,7 +38,13 @@
 .icon-arraws{
   width: 20px;
   height: 18px;
+  color: var(--clr-primary);
+}
+.arraws-cta{
   color: var(--clr-primary-light);
+}
+.btn-cta{
+  margin: 0 auto;
 }
 .send-icon{
   width: 20px;
@@ -46,4 +52,9 @@
   position: absolute;
   top: 60%;
   right: 5%;
+}
+@media(min-width: 768px){
+  .send-icon{
+    top: 25%;
+  }
 }
